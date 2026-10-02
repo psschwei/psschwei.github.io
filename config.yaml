@@ -1,0 +1,28 @@
+baseURL: 'https://psschwei.com/'
+languageCode: 'en-us'
+title: 'Paul Schweigert'
+theme: hugo-flex
+
+params:
+  color: darkgreen
+  width: 70rem
+  footer: >-
+    (c) 2024-2026 Paul Schweigert. Made with &#32;<a href="https://themes.gohugo.io/themes/hugo-flex/">Hugo Flex</a>.
+
+menu:
+  nav:
+  - name: Blog
+    url: post/
+    weight: 1
+  - name: Code
+    url: code/
+    weight: 2
+  - name: Writing
+    url: writing/
+    weight: 3
+  - name: Speaking
+    url: speaking/
+    weight: 4
+  - name: Contact
+    url: contact/
+    weight: 5
